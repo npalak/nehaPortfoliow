@@ -1,0 +1,67 @@
+
+.common-cls{
+    background: #23243a;
+    color: white;
+    padding:10px;
+}
+.logo-cls{
+    width: 130px;
+}
+.sub-text-cls{
+  color:  rgb(128, 128, 128);
+}
+.problem-link-cls {
+  color: white;
+  text-decoration: none; /* No underline by default */
+  position: relative;
+}
+.problem-link-cls:hover {
+  text-decoration: underline; /* Underline appears on hover */
+}
+.text-center{
+  color: white;
+  margin:5px;
+}
+.skill-cls{
+  color: white;
+  font-size: medium;
+}
+.projects-cls{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+}
+
+.project-dec{
+  color:  rgb(128, 128, 128);
+}
+.project-link {
+  border: 1px solid rgb(128, 128, 128);
+  padding: 5px;
+  height: 50px;
+  width: 200px;
+  background: #231919;
+  color: white;
+  text-align: center;
+  position: relative;
+  transition: height 2s linear;
+  text-decoration: none; 
+  position: relative;
+}
+.project-link .hover-text {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;  /* Initially hidden */
+  visibility: hidden; /* Ensures it doesn’t take space */
+  transition: opacity 0.5s ease-in-out;
+}
+.project-link:hover {
+  height: 100px;
+}
+.project-link:hover .hover-text {
+  opacity: 1;  /* Show text */
+  visibility: visible;
+}
