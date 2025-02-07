@@ -10,7 +10,7 @@
     "react-scripts": "^5.0.1",
     "tailwindcss": "^4.0.3"
   },
-  "homepage": "https://github.com/npalak/nehaPortfoliow",
+  "homepage": "https://npalak.github.io/nehaPortfoliow",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
